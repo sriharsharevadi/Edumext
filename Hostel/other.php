@@ -1,0 +1,2 @@
+<?php
+header("location:https://gymkhana.iitb.ac.in/sso/oauth/authorize/?client_id=Vi6m4JhPnGmgsiPeeIxEDhwLISe2LMVp1HX2aiYs&response_type=code&state=some_state&scope=basic%20profile%20ldap%20program&redirect_uri=http://10.3.160.142/Hostel/sso.php");
