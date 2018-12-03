@@ -59,7 +59,7 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Edunext';
-    $mail->Body    = 'Thanks for signing up in Edunext.Please click on the following link for verification. http://127.0.0.1/index.php?user='.$users.'&login='.$login.' This link is valid for only 24 hours.';
+    $mail->Body    = 'Thanks for signing up in Edunext.Please click on the following link for verification. http://sriharsha.ga/login.php?user='.$users.'&login='.$login.' This link is valid for only 24 hours.';
     //$mail->AltBody = 'What are you doing susnata';
 
     $mail->send();
